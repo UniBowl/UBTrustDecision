@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UBTrustDecision"
-  spec.version      = "1.0.0" 
+  spec.version      = "1.0.1" 
   spec.summary      = "Re packaging based on TrustDecisionPro"
 
   # This description is used to generate tags and improve search results.
@@ -123,6 +123,7 @@ Pod::Spec.new do |spec|
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
+  spec.vendored_frameworks = "UBTrustDecision.framework"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
