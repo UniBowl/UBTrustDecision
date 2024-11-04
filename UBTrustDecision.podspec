@@ -123,7 +123,8 @@ Pod::Spec.new do |spec|
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-  spec.vendored_frameworks = 'UBTrustDecision/UBTrustDecision.framework'
+  spec.vendored_frameworks = 'UBTrustDecision.framework'
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
