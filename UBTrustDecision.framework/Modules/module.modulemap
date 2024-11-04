@@ -1,0 +1,6 @@
+framework module UBTrustDecision {
+  umbrella header "UBTrustDecision.h"
+  export *
+
+  module * { export * }
+}
